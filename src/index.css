@@ -1,0 +1,24 @@
+/* *{
+    background-color: rgba(220, 20, 60, 0.055);
+} */
+
+    /* background-color: rgb(25, 160, 76); 167018*/
+
+    /* background-color: rgb(4, 100, 33); #046421   #167018   */
+    
+
+    /* #539941   #6AB755 */
+
+
+@font-face {
+    font-family: 'Paytone One';
+    font-style: NORMAL;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./assets/fonts/PaytoneOne-Regular.ttf') format('ttf');
+}
+/* 
+ 
+*{
+    font-family: 'Protest Strike', 
+} */

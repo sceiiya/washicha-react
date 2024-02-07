@@ -12,7 +12,7 @@ function App() {
     <>
       <HelmetProvider>
       <Navbar />
-      <main className="w-full p-0 m-0 [&>*:nth-child(even z)]:bg-[#87f86794]">
+      <main className="w-full p-0 m-0 [&>*:nth-child(even)]:bg-[#87f86794]">
         <Router>
           <Routes>
             <Route path="/home" element={<Home />}></Route>

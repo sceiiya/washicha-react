@@ -1,7 +1,9 @@
 import { Helmet } from "react-helmet-async";
 import FukamushiImg from "../assets/images/Fukamushi tea.jpg"
+import HomepageSection from '../components/HomepageSection';
 
 function Home() {
+    const boom = ["number", 9999, "asdw"]
   return (
     <>
         <Helmet>
@@ -25,6 +27,7 @@ function Home() {
             </div>
         </div>
         <div className="flex justify-center h-screen items-center px-[12%]">1 tea</div>
+        <HomepageSection className="flex justify-center h-screen items-center px-[12%]" cards={boom}></HomepageSection>
         <div className="flex justify-center h-screen items-center px-[12%]">A blog</div>
         <div className="flex justify-center h-screen items-center px-[12%]">3 Teas</div>
         <div className="flex justify-center h-screen items-center px-[12%]">HealthTea</div>

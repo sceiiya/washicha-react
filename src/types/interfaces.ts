@@ -12,5 +12,10 @@ export interface IfCards{
     price?: number;
     currency?: string;
     imgage?: any;
-    stock?: number;
+    stock?: string;
+}
+
+export interface IfButtonz{
+    className: string;
+    text: string;
 }

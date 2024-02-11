@@ -1,22 +1,22 @@
 function Footer() {
   return (
     <>
-        <footer className="flex justify-center items-center bg-[#86f867]">
-            <div>
-                <address>Adress here</address>
+        <footer className="flex justify-center flex-col items-center bg-[#86f867]">
+            <div className="py-2">
+                <address className="italic">Adress here</address>
             </div>
-            <div>
-                <input type="email" name="" id=""  placeholder="example@urmail.com" />
+            <div className="py-2">
+                <input type="email" name="subscriberEmail" id="subscriberEmail"  placeholder="example@urmail.com" />
                 <input type="submit" value="Subscribe" />
             </div>
-            <div className="">
+            <div className="flex py-2">
                 Socail Media
-                <div>Facebook</div>
-                <div>Instagram</div>
-                <div>Twitter</div>
-                <div>Tiktok</div>
+                <div className="px-2 py-1 rounded-lg bg-white">Facebook</div>
+                <div className="px-2 py-1 rounded-lg bg-white">Instagram</div>
+                <div className="px-2 py-1 rounded-lg bg-white">Twitter</div>
+                <div className="px-2 py-1 rounded-lg bg-white">Tiktok</div>
             </div>
-            <div>
+            <div className="py-2">
                 <p>All right reserved &copy; 2024</p>
             </div>
         </footer>

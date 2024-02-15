@@ -1,5 +1,5 @@
 /* *{
-    background-color: rgba(220, 20, 60, 0.055);
+    background-color: rgba(220, 20, 60, 0.055) !important;
 } */
 
     /* background-color: rgb(25, 160, 76); 167018*/
@@ -17,8 +17,8 @@
     font-display: swap;
     src: url('./assets/fonts/PaytoneOne-Regular.ttf') format('ttf');
 }
-/* 
- 
+
+/*  
 *{
     font-family: 'Protest Strike', 
 } */

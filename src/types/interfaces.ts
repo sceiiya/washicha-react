@@ -7,12 +7,12 @@ export interface IfCards{
     className: string;
     heading: string;
     subheading: string;
-    button1?: JSX.Element;
-    button2?: JSX.Element;
+    button1?: string;
+    button2?: string;
     price?: number;
     currency?: string;
     imgage?: any;
-    stock?: string;
+    stock?: number;
 }
 
 export interface IfButtonz{

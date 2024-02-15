@@ -1,26 +1,41 @@
 import { IfHomepageSection } from "../types/interfaces"
 import Cards from './Cards';
-import goimage from "../assets/images/Genmaicha.jpg"
-import Buttonz from "./Buttonz";
+// import goimage from "../assets/images/Genmaicha.jpg"
+import { teas } from "../contexts/contexts.ts";
 
 const HomepageSection:React.FC<IfHomepageSection> = ({className}) => {
     // const [stringContent, numberContent, buttonElement] = cards
     // const [className, heading, subheading, imgage, currency, price, button1, button2, stock] = cards 
+    
+
     return (
         <>
             <div className={className}>
                 <div className="cards-container flex">
-                    <Cards
+                    {teas. map(({heading, subheading, button1, button2, price, currency, imgage, stock}) => (
+                        <Cards 
+                            className="p-3"
+                            heading={heading}
+                            subheading={subheading}
+                            imgage={imgage}
+                            currency={currency}
+                            price={price}
+                            button1={button1}
+                            button2={button2}
+                            stock={stock}
+                        />
+                    ))}
+                    {/* <Cards
                         className="p-3"
                         heading="Wakoucha"
                         subheading="Smooth Japanese black tea with subtle sweetness and delicate flavor notes."
                         imgage={goimage}
                         currency="$"
                         price={150}
-                        button1={<Buttonz text="Buy Now" className="text-[#539941] border-[#539941] border-solid border hover:border-transparent hover:text-white hover:bg-[#539941] font-bold shadow-none hover:shadow-md hover:shadow-black/30" />}
-                        button2={<Buttonz text="Discover" className="text-[#539941] border-[#539941] border-solid border hover:border-transparent  font-bold hover:shadow-md hover:shadow-black/30" />}
+                        button1="Buy Now"
+                        button2="Discover"
                         stock={"60"}
-                    />
+                    /> */}
                 </div>
             </div>
         </>

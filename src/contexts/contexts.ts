@@ -19,7 +19,7 @@ export const teas = [
         price: 150,
         currency: "$",
         imgage: {goimage},
-        stock: 23
+        stock:0
     },
     {
         heading: "Wakoucha",
@@ -39,6 +39,6 @@ export const teas = [
         price: 1,
         currency: "$",
         imgage: {goimage},
-        stock: "0"
+        stock: 0
     },
 ]
